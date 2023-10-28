@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Un juego para ti🎮</title>
+</head>
+
+<body>
+    
+    <div class="container text-center align-items-center justify-content-center">
+
+      <div class="bubbles-animation1"></div>
+      <div class="bubbles-animation2"></div>
+      <div class="bubbles-animation3"></div>
+      <div class="bubbles-animation4"></div>
+      <div class="bubbles-animation5"></div>
+      <div class="bubbles-animation6"></div>
+      <div class="bubbles-animation7"></div>
+      <div class="bubbles-animation8"></div>
+      <div class="bubbles-animation9"></div>
+      <div class="bubbles-animation10"></div>
+      <div class="bubbles-animation11"></div>
+      <div class="bubbles-animation12"></div>
+      <div class="bubbles-animation13"></div>
+      <div class="bubbles-animation14"></div>
+      <div class="bubbles-animation15"></div>
+      <div class="bubbles-animation16"></div>
+      <div class="bubbles-animation17"></div>
+      <div class="bubbles-animation18"></div>
+      <div class="bubbles-animation19"></div>
+      <div class="bubbles-animation20"></div>
+      <div class="bubbles-animation21"></div>
+      <div class="bubbles-animation22"></div>
+      <div class="bubbles-animation23"></div>
+      <div class="bubbles-animation24"></div>
+      <div class="bubbles-animation25"></div>
+
+
+        <div id="pantalla-inicial" class="row text-center" style="display: flex; justify-content: center; align-items: center;">
+            <div class="col">
+                <h1 data-shadow='¡Un juego súper especial para ti!' class="titulo">
+                    ¡Un juego súper especial para ti!
+                </h1>
+
+                <div class="row">
+                    <div class="col">
+                        <p>¿Te sientes preparado para un juego un poco difícil? <br> Espero que sí mi amor, <br>si ganas, tendrás un increíble premio mi súper esposo. <br> Espero que no falles ninguna, si no, ¡uhmmm!, te voy a morder. <br> Te amOOOOOoo con toda mi alma y corazón. <br> ¡Inicia ya el juego mi amor, con tan solo un click!</p>
+                        <div class="row">
+                            <div class="col">
+                              <img class="game" src="img/game.gif" alt="">
+                            </div>
+                        </div>
+
+                        <button class="btn tips" style="background-color: rgb(150, 75, 219); color: black; font-weight: bold;">Haz click aquí antes para unos tips</button>
+
+                        <div class="row" style="left: 5%;">
+                            <div class="col">
+                            <button class="btn" onclick="comenzarJuego()" style="background-color: rgb(150, 75, 219); color: black; font-weight: bold;">Comenzar a jugar</button>
+
+
+                            <div class="col-md-12">
+
+                                <button type="button" class="btn" style="background-color: rgb(150, 75, 219); color: black; font-weight: bold;" data-bs-toggle="modal" data-bs-target="#myModal">Volver</button>
+                          
+                              <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                          
+                                     <div class="modal-header" style="background: gray;">
+                                          <h4 class="modal-title fs-5" id="myModalLabel" style="color: white; font-family:'Kaushan Script', cursive; font-family: 'Righteous', serif;">¡Gracias por jugar mi amor!🥰</h4>
+                                      </div>
+                          
+                                      <div class="modal-body" style="background: gray; color: white; font-family: Arial, Helvetica, sans-serif;">
+                                        Espero hayas ganado mi amor y que te haya súper encantado el juego. <br> Siempre juntos mi súper esposo <br> Te AmooooOOOOOOO( ∩˘ᵕ˘∩♡)˚๐*˟ ♡.
+                                        <img class="loved" src="img/loved.gif" alt="">
+                                      </div>
+                                      <div class="modal-footer" style="background: gray;">
+                                        <button type="button" class="btn-secondary" style="background-color: rgb(150, 75, 219); color: black; font-weight: bold; border-radius: 50px;" data-bs-dismiss="modal" onclick="redireccion()" aria-label="Close">Continuar</button>
+                                        <button type="button" class="btn-secondary" style="background-color: rgb(150, 75, 219); color: black; font-weight: bold; border-radius: 50px;"  data-bs-dismiss="modal">Cerrar</button>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                          
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      </div>
+        <div class="row align-items-center" id="pantalla-juego">
+            <div class="col-12 encabezado">
+
+                <div class="row">
+                    <div class="col-11 categoria" id="categoria"></div>
+                    <div class="col-6 numero" id="numero"></div>
+                </div>
+
+                    <div class="row">
+                      <img src="#" class="col-12 imagen" id="imagen">
+                    </div>
+
+                    <div class="row">
+                     <div class="col-12 pregunta" id="pregunta"></div>
+                    </div>
+
+                <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+                <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+                <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+                <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+
+                <div class="puntaje" id="puntaje"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <script src="java.js"></script>
+
+  <script>
+
+    Swal.fire({
+      title: '<b>¡Te deseo buena suerte mi amor!</b>',
+      text: 'Espero ganes este lindo juego mi todo, todito, todo, todote, “si no te las verás conmigo” Mmmmm!.',
+      imageUrl: 'https://media.tenor.com/qNJeR3ZG_dYAAAAi/loved-junlemon.gif',
+      imageWidth: '250px',
+      imageAlt: 'game',
+      background: '#000',
+      grow: 'fullscreen',
+      input: 'text',
+      inputPlaceholder: 'Escribe tu lindo nombre aquí...',
+      confirmButtonText: 'Confirmar',
+      confirmButtonColor: '#9335be',
+      allowOutsideClick: false,
+      allEscapeKey: false,
+      allEnterKey: false,
+      stopKeydownPropagation: false,
+      customClass: {
+      title: 'titulo01',
+      input: 'nombre'
+    },
+    inputValidator: (value) => {
+    if (!value) {
+      return 'Por favor ingresa tu lindo nombre :;(∩´﹏`∩);:';
+    }
+   }
+   }).then((result) => {
+   if (result.isConfirmed) {
+    // Guardar el nombre de mi lindo jugador en localStorage
+    localStorage.setItem("nombre", result.value);
+    Swal.fire({
+      title: '¡Uyyy que lindo eres, gracias ' + result.value + '!',
+      text: '( ゝ◡╹ )♡.°Tu lindo nombre ha sido guardado, presiona continuar para comenzar el lindo juego que hice para ti mi amor, date prisa y comienza a jugar ' + result.value + ' buuuuu 🤭.',
+      icon: 'success',
+      iconColor: 'violet',
+      imageUrl: 'https://media.tenor.com/LVtEmp5Ds5YAAAAj/love-hugs.gif',
+      imageWidth: '100px',
+      imageAlt: 'success',
+      confirmButtonText: 'Continuar',
+      confirmButtonColor: '#9335be',
+      background: '#000',
+      allowOutsideClick: false,
+      customClass: {
+        title: 'titulo01'
+      }
+    })
+    const img = document.querySelector('.swal2-image');
+    img.style.position = "absolute";
+    img.style.bottom = "0";
+    img.style.left = "7%";
+    img.style.transform = "translateX(-7%)";
+   }
+   });
+
+    
+  </script>
+
+  <script>
+     function redireccion(){
+        location.href = "https://mr-y-mrs-debail.github.io/Conteo-regresivo/"
+      }
+  </script>
+
+ <script>
+  // Selecciona el elemento button con la clase "btn"
+  const tip = document.querySelector(".tips");
+    // Agrega un evento click al elemento button seleccionado
+    tip.addEventListener("click", () => {
+    // Crea una alerta SweetAlert con el mensaje deseado y las opciones de configuración
+    Swal.fire({
+      title: "¡Espero estos tips te ayuden a ganar mi amor!",
+      html: "Cada pregunta tiene su dificultad y por eso las clasifiqué así amor:<br><br>Preguntas Especiales: son preguntas que sí o sí tienes que responder bien.<br>Preguntas súper fáciles: no puedes equivocarte Mmmm.<br>Preguntas Adivina Adivinador: sabes la respuesta pero tienes que pensar bien mi amor.<br>Preguntas piensa muy bien mi amor: antes de responder analiza bien la pregunta amor, tienen una dificultad un poco difícil<br>y las preguntas podrás adivinar: son preguntas que puede que tengas que adivinar o puede que las sepas o no uyyyy su dificultad es difícil. <br><br> Espero tengas una puntuación alta mi amor. <br> ❤️Te AmOOOOOooooo❤️",      
+      position: "center",
+      icon: "info",
+      iconColor: 'violet',
+      confirmButtonText: 'Continuar',
+      confirmButtonColor: '#9335be',
+      background: '#000',
+      imageUrl: 'https://media.tenor.com/qYy0yRib7scAAAAi/beijos-kiss.gif',
+      imageWidth: '100px',
+      imageAlt: 'beso',
+      allowOutsideClick: false,
+      customClass: {
+        title: 'titulo01'
+      }
+
+        });
+  });
+</script>
+
+
+</body>
+
+</html>

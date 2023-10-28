@@ -1,0 +1,220 @@
+[
+    {
+        "categoria": "Pregunta especial",
+        "pregunta": "¿Cuánto me amas?",
+        "respuesta": "Contando muchas cositas hasta el infinito",
+        "incorrecta1": "Muchísimo",
+        "incorrecta2": "Hasta el infinito",
+        "incorrecta3": "Mucho"
+    },
+
+    {
+        "categoria": "Pregunta súper fácil",
+        "pregunta": "¿Cuándo nos casamos mi amor?",
+        "respuesta": "04-06-2013",
+        "incorrecta1": "04-07-2012",
+        "incorrecta2": "04-06-2014",
+        "incorrecta3": "04-07-2013",
+        "imagen": "https://media.tenor.com/o74Vlqxx3ecAAAAi/brown-bear-and-cony-wedding.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Adivina, adivinador",
+        "pregunta": "¿Qué me gusta más?",
+        "respuesta": "Ir a un parque ecológico",
+        "incorrecta1": "Ir a un museo",
+        "incorrecta2": "Ir a la playa",
+        "incorrecta3": "Ir a al cine",
+        "imagen": "https://media.tenor.com/u-PA4O5_KMkAAAAd/seriously.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Pregunta súper fácil",
+        "pregunta": "¿Quién es Lagartin?",
+        "respuesta": "Alguien de nuestra pequeña familia",
+        "incorrecta1": "Un títere",
+        "incorrecta2": "Un lagarto",
+        "incorrecta3": "Una cosita muy especial",
+        "imagen": "https://media.tenor.com/iTdcU-ym2TsAAAAj/cute-bored.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Pregunta súper fácil",
+        "pregunta": "¿Cuál es nuestra estación favorita del año?",
+        "respuesta": "Otoño",
+        "incorrecta1": "Primavera",
+        "incorrecta2": "Verano",
+        "incorrecta3": "Invierno",
+        "imagen": "https://media.tenor.com/3HyRiP0eMC0AAAAi/pochaccoo-chick.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Piensa muy bien mi amor",
+        "pregunta": "¿Cuántos osos me has regalado mi amor?",
+        "respuesta": "9",
+        "incorrecta1": "7",
+        "incorrecta2": "8",
+        "incorrecta3": "10",
+        "imagen": "https://media.tenor.com/QzBP-sC2xJQAAAAi/dm4uz3-foekoe.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Piensa muy bien mi amor",
+        "pregunta": "¿Cuál es mi canción favorita?",
+        "respuesta": "Tu sastre",
+        "incorrecta1": "Todas las respuestas son correctas",
+        "incorrecta2": "Perfecta",
+        "incorrecta3": "Mi bello ángel",
+        "imagen": "https://media.tenor.com/_zmW7Xj8JiYAAAAj/sing-song.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Podrás adivinar",
+        "pregunta": "¿Qué me gusta leer?",
+        "respuesta": "Mangas",
+        "incorrecta1": "Todas las respuestas son correctas",
+        "incorrecta2": "Cómics",
+        "incorrecta3": "Libros",
+        "imagen": "https://media.tenor.com/UzwEvsko0HIAAAAj/tkthao219-bubududu.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Adivina, adivinador",
+        "pregunta": "¿Qué me gusta hacer más?",
+        "respuesta": "Manualidades",
+        "incorrecta1": "Todas las respuestas son correctas",
+        "incorrecta2": "Pintar",
+        "incorrecta3": "Coser",
+        "imagen": "https://media.tenor.com/3UDb39SxU9IAAAAi/pooh-winnie-the-pooh.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Podrás adivinar",
+        "pregunta": "¿Cuál es mi chuche favorito?",
+        "respuesta": "Doritos rojos",
+        "incorrecta1": "Todas las respuestas son correctas",
+        "incorrecta2": "Chocolates",
+        "incorrecta3": "Dulces",
+        "imagen": "https://media.tenor.com/mjnz9xrA308AAAAi/food-lover.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Podrás adivinar",
+        "pregunta": "¿A qué país me gustaría viajar?",
+        "respuesta": "Suiza",
+        "incorrecta1": "Francia",
+        "incorrecta2": "China",
+        "incorrecta3": "Alemania",
+        "imagen": "https://media.tenor.com/1JRARHVuEtUAAAAj/rafsdesign-rafs.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Pregunta súper fácil",
+        "pregunta": "¿Cuál es mi flor favorita?",
+        "respuesta": "Flor de cerezo",
+        "incorrecta1": "Amapola",
+        "incorrecta2": "Clavel",
+        "incorrecta3": "Lavanda",
+        "imagen": "https://media.tenor.com/aPFYmCN1OqsAAAAj/wrapped-gifts-birthday-presents.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Podrás adivinar",
+        "pregunta": "¿Cuál es mi género favorito de películas?",
+        "respuesta": "No tengo",
+        "incorrecta1": "Terror",
+        "incorrecta2": "Romance",
+        "incorrecta3": "Comedia",
+        "imagen": "https://media.tenor.com/pA7e8TMtqVAAAAAj/watching-tv.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Podrás adivinar",
+        "pregunta": "¿Qué me género de videojuegos es mi favorito?",
+        "respuesta": "Aventura y acción",
+        "incorrecta1": "Terror",
+        "incorrecta2": "Simulación",
+        "incorrecta3": "Todas las respuestas son correctas",
+        "imagen": "https://media.tenor.com/q7mqeh_7zD8AAAAj/racoon-charlie-phone.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Pregunta especial",
+        "pregunta": "¿Qué me gusta más de ti?",
+        "respuesta": "Todas las respuestas son correctas",
+        "incorrecta1": "Tu voz",
+        "incorrecta2": "Tus ojos",
+        "incorrecta3": "Tus manitas",
+        "imagen": "https://media.tenor.com/FWlAXRkfapEAAAAi/love-kiss.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Podrás adivinar",
+        "pregunta": "¿Cuál es mi bebida favorita?",
+        "respuesta": "Mountai Dew",
+        "incorrecta1": "Monster",
+        "incorrecta2": "Coca-cola",
+        "incorrecta3": "Pepsi",
+        "imagen": "https://media.tenor.com/jYS8TFabHqkAAAAj/milk.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Piensa muy bien mi amor",
+        "pregunta": "¿Qué regalo me gusta más?",
+        "respuesta": "Todas las respuestas son correctas",
+        "incorrecta1": "Los ositos",
+        "incorrecta2": "Las cartas hechas por ti",
+        "incorrecta3": "Usar una playera tuya",
+        "imagen": "https://media.tenor.com/sUkDxcN9Te8AAAAj/penguin-gift.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Piensa muy bien mi amor",
+        "pregunta": "¿Cómo me gusta tu pelito?",
+        "respuesta": "Todas las respuestas son correctas",
+        "incorrecta1": "Largo",
+        "incorrecta2": "Corto",
+        "incorrecta3": "Medio corto",
+        "imagen": "https://media.tenor.com/uZUDUCOqtt4AAAAj/love-couple.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Pregunta súper fácil",
+        "pregunta": "¿Qué me gusta más?",
+        "respuesta": "Té",
+        "incorrecta1": "Todas las respuestas son correctas",
+        "incorrecta2": "Café",
+        "incorrecta3": "Chocolate",
+        "imagen": "https://media.tenor.com/AFf0sKHqXmoAAAAj/tasty-yummy.gif",
+        "objectFit": "contain"
+    },
+
+    {
+        "categoria": "Podrás adivinar",
+        "pregunta": "¿Qué actividad me gustaría hacer en una cita contigo?",
+        "respuesta": "Ecoturismo",
+        "incorrecta1": "Cine al aire libre",
+        "incorrecta2": "Ir a un concierto",
+        "incorrecta3": "Ir a un parque de diversiones",
+        "imagen": "https://media.tenor.com/wF4G1DTmf6EAAAAi/jun-lemon-loved.gif",
+        "objectFit": "contain"
+    }
+
+]

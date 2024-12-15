@@ -1,118 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Zilla+Slab:wght@300&display=swap');
 
 * {
-    transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 body {
-    background: rgb(0, 0, 0);
-    text-align: center;
-    font-family: 'Zilla Slab', serif;    
-    font-size: 120%;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Zilla Slab', serif;    
+  font-size: 120%;
 }
 
-@keyframes colors{
-    0%{
-       background-color: #b30000;
-    }
-    25%{
-      background-color: #a812ee;
-    }
-    50%{
-      background-color: #ff1a9f;
-    }
-    75%{
-      background-color: #fbd204;
-    }
-    100%{
-      background-color: #b30000;
-    }
-    to{
-        opacity: 1;
-        transform: scale(0) translateY(0) rotate(70deg);
-      }
-      100%{
-        opacity: 0;
-        transform: scale(2) translateY(-100px) rotate(360deg);
-      }
+@keyframes colors {
+  0%{
+    background-color: #b30000;
   }
+  25%{
+    background-color: #a812ee;
+  }
+  50%{
+    background-color: #ff1a9f;
+  }
+  75%{
+    background-color: #fbd204;
+  }
+  100%{
+    background-color: #b30000;
+  }
+  to{
+    opacity: 1;
+    transform: scale(0) translateY(0) rotate(70deg);
+  }
+  100%{
+    opacity: 0;
+    transform: scale(2) translateY(-100px) rotate(360deg);
+  }
+}
 
-.bubbles-animation1{
+.light {
+  position: absolute;
+  z-index: 100;
+}
+
+.lights1 {
   top: 30%;
   left: 10%;
   height: 10px;
   width: 10px;
   animation: 12s colors infinite;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation2{
+.lights2 {
   top: 90%;
   left: 85%;
   height: 5px;
   width: 5px;
   animation: 6s colors infinite;
   border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation3{
+.lights3 {
   top: 40%;
   left: 40%;
   height: 10px;
   width: 10px;
   animation: 16s colors infinite;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation4{
+.lights4 {
   top: 66%;
   left: 30%;
   height: 9px;
   width: 9px;
   animation: 7s colors infinite;
   border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation5{
+.lights5 {
   top: 89%;
   left: 5%;
   height: 5px;
   width: 5px;
   animation: 12s colors infinite;
   border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation6{
+.lights6 {
   top: 30%;
   left: 95%;
   height: 9px;
   width: 9px;
   animation: 4s colors infinite;
   border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation7{
+.lights7 {
   top: 80%;
   left: 18%;
   z-index: 100;
   height: 5px;
   width: 10px;
   animation: 9s colors infinite;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation8{
+.lights8 {
   top: 90%;
   left: 75%;
   z-index: 100;
@@ -120,11 +111,9 @@ body {
   width: 5px;
   animation: 15s colors infinite;
   border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation9{
+.lights9 {
   top: 50%;
   left: 60%;
   z-index: 100;
@@ -132,299 +121,266 @@ body {
   width: 7px;
   animation: 5s colors infinite;
   border-radius: 50px;
-  position: absolute;
-  z-index: 100;
-}
-.bubbles-animation10{
+} 
+
+.lights10 { 
   top: 97%;
   left: 20%;
   height: 5px;
   width: 5px;
   animation: 15s colors infinite;
   border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
-.bubbles-animation11{
+
+.lights11 {
   top: 10%;
   left: 85%;
   height: 5px;
   width: 10px;
   animation: 7s colors infinite;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation12{
+.lights12 {
   top: 20%;
   left: 80%;
   z-index: 100;
   height: 8px;
   width: 8px;
   animation: 10s colors infinite;
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation13{
+.lights13 {
   top: 20%;
   left: 15%;
-  z-index: 100;
   height: 10px;
   width: 10px;
   animation: 8s colors infinite;
   border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation14{
+.lights14 {
   top: 97%;
   left: 12%;
-  z-index: 100;
   height: 5px;
   width: 10px;
   animation: 10s colors infinite;
-  position: absolute;
 }
 
-.bubbles-animation15{
+.lights15 {
   top: 95%;
   left: 70%;
-  z-index: 100;
   height: 5px;
   width: 5px;
   animation: 3s colors infinite;
   border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation16{
+.lights16 {
   top: 85%;
   left: 80%;
-  z-index: 100;
   height: 5px;
   width: 5px;
   animation: 7s colors infinite;
   border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation17{
+.lights17 {
   top: 45%;
   left: 28%;
-  z-index: 100;
   height: 5px;
   width: 10px;
   animation: 5s colors infinite;
-  position: absolute;
-}
+ }
 
-.bubbles-animation18{
+.lights18 {
   top: 90%;
   left: 25%;
-  z-index: 100;
   height: 5px;
   width: 5px;
   animation: 5s colors infinite;
   border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation19{
+.lights19 {
   top: 97%;
   left: 95%;
-  z-index: 100;
   height: 5px;
   width: 5px;
   animation: 12s colors infinite;
   border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation20{
+.lights20 {
   top: 59%;
   left: 78%;
-  z-index: 100;
   height: 5px;
   width: 10px;
   animation: 13s colors infinite;
-  position: absolute;
 }
 
-.bubbles-animation21{
+.lights21 {
   top: 65%;
   left: 95%;
-  z-index: 100;
   height: 10px;
   width: 10px;
   animation: 9s colors infinite;
- position: absolute;
 }
 
-.bubbles-animation22{
+.lights22 {
   top: 66%;
   left: 65%;
   animation: animate 4s linear infinite;
-  z-index: 100;
   height: 5px;
   width: 10px;
   animation: 12s colors infinite;
-  position: absolute;
 }
 
-.bubbles-animation23{
+.lights23 {
   top: 35%;
   left: 4%;
-  z-index: 100;
   height: 6px;
   width: 6px;
   animation: 9s colors infinite;
   border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation24{
+.lights24 {
   top: 60%;
   left: 13%;
-  z-index: 100;
   height: 4px;
   width: 4px;
   animation: 6s colors infinite;
   border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation25{
+.lights25 {
   top: 85%;
   left: 35%;
-  z-index: 100;
   height: 5px;
   width: 10px;
   animation: 9s colors infinite;
-  position: absolute;
 }
 
-
-#pantalla-inicial{
-    display: block;
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    font-size: 15px;
-    padding: 10px;
+#pantalla-inicial {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
 }
 
 h1 {
-    display: inline-block;
-    line-height: 100px;
-    font-family: 'Righteous', serif;
-    color: rgb(26, 24, 24); 
-    filter: drop-shadow(0 0 8px rgb(168, 52, 184))
-            drop-shadow(0 0 93px rgb(113, 1, 128))
-            drop-shadow(0 0 93px rgb(254, 250, 255));
+  display: inline-block;
+  line-height: 100px;
+  font-family: 'Righteous', serif;
+  color: rgb(26, 24, 24); 
+  filter: drop-shadow(0 0 8px rgb(168, 52, 184))
+          drop-shadow(0 0 93px rgb(113, 1, 128))
+          drop-shadow(0 0 93px rgb(254, 250, 255));
 }
 
-#pantalla-juego{
-    display: none;
+#pantalla-juego {
+  display: none;
 }
     
 .container {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .encabezado {
-    margin-top: 5%;
-    color: white;
-    width: 100%;
+  margin-top: 5%;
+  color: white;
+  width: 100%;
 }
 
 .categoria {
-    text-align: left;
+  text-align: left;
 }
 
 .pregunta {
-    padding: 10px;
+  padding: 10px;
 }
 
 .imagen {
-    object-fit: contain;
-    height: 0px;
-    width: 0px;
+  object-fit: contain;
+  height: 0px;
+  width: 0px;
 }
 
 .btn {
-    background: white;
-    width: 60%;
-    max-width: 550px;
-    padding: 10px;
-    margin: 5px;
-    cursor: pointer;
+  background: white;
+  width: 60%;
+  max-width: 550px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
 }
 
 .btn:hover {
   background-color: white;
-    transform: scale(1.05);
-    color: rgb(0, 0, 0);
+  transform: scale(1.05);
+  color: rgb(0, 0, 0);
 }
   
-.numero{
-    top: 15px;
-    right: 10px;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: coral;
+.numero {
+  top: 15px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: coral;
 }
   
-.puntaje{
-    padding:10px;
-    color:white;
+.puntaje {
+  padding:10px;
+  color:white;
 }
 
-.loved{
-    width: 200px;
+.loved {
+  width: 200px;
 }
 
-.btn-Class{
+.btn-Class {
   border-color: #9335be !important;
 }
 
 
-.titulo01{
+.titulo01 {
   color: white;
 }
 
-.titulo{
+.titulo {
   color: white;
 }
 
-.text01{
+.text01 {
   color: white;
 }
 
-.nombre{
+.nombre {
   border-color: #9335be;
 }
 
 @media only screen and (max-width: 867px) {
-    .container{
-        margin-top: 19%;
-    }
-    .game{
-        width: 200px;
-    }
-    .numero{
-        margin-left: 80%;
-        margin-top: -10%;
-    }
-    .encabezado{
-        margin-top: 7%;
-    }
-    h1{
-        line-height: 40px;
-    }
+  .container{
+    margin-top: 19%;
+  }
+  .game{
+    width: 200px;
+  }
+  .numero{
+    margin-left: 80%;
+    margin-top: -10%;
+  }
+  .encabezado{
+    margin-top: 7%;
+  }
+  h1{
+    line-height: 40px;
+  }
 }

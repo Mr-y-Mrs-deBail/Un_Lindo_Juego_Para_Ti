@@ -22,7 +22,7 @@
     {
         "categoria": "Adivina, adivinador",
         "pregunta": "¿Qué me gusta más?",
-        "respuesta": "Ir a un parque ecológico",
+        "respuesta": "Ir a un parque",
         "incorrecta1": "Ir a un museo",
         "incorrecta2": "Ir a la playa",
         "incorrecta3": "Ir a al cine",
@@ -59,7 +59,7 @@
         "incorrecta1": "7",
         "incorrecta2": "8",
         "incorrecta3": "10",
-        "imagen": "https://media.tenor.com/QzBP-sC2xJQAAAAi/dm4uz3-foekoe.gif",
+        "imagen": "https://c.tenor.com/d98UP05HOE0AAAAd/tenor.gif",
         "objectFit": "contain"
     },
 
@@ -112,7 +112,7 @@
         "pregunta": "¿A qué país me gustaría viajar?",
         "respuesta": "Suiza",
         "incorrecta1": "Francia",
-        "incorrecta2": "China",
+        "incorrecta2": "Japón",
         "incorrecta3": "Alemania",
         "imagen": "https://media.tenor.com/1JRARHVuEtUAAAAj/rafsdesign-rafs.gif",
         "objectFit": "contain"
@@ -142,7 +142,7 @@
 
     {
         "categoria": "Podrás adivinar",
-        "pregunta": "¿Qué me género de videojuegos es mi favorito?",
+        "pregunta": "¿Qué género de videojuegos es mi favorito?",
         "respuesta": "Aventura y acción",
         "incorrecta1": "Terror",
         "incorrecta2": "Simulación",
@@ -209,7 +209,7 @@
     {
         "categoria": "Podrás adivinar",
         "pregunta": "¿Qué actividad me gustaría hacer en una cita contigo?",
-        "respuesta": "Ecoturismo",
+        "respuesta": "Ir a ver árboles",
         "incorrecta1": "Cine al aire libre",
         "incorrecta2": "Ir a un concierto",
         "incorrecta3": "Ir a un parque de diversiones",
